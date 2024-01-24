@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
+last_digit = number % 10
 if number < 0:
-    abm = number % 10
-    if abm == 0:
-        last_digit = abm
-    else:
-        last_digit = abm - 10
+    last_digit = (number % 10) - 10
 else:
     last_digit = number % 10
 if last_digit > 5:

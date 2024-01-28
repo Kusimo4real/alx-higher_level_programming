@@ -5,5 +5,5 @@ def uppercase(str):
             sem = chr(ord(i) - 32)
         else:
             sem = i
-        print("{}".format(sem), end = '')
+        print("{}".format(sem), end=n'')
     print("{}".format(""))

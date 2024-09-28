@@ -3,6 +3,6 @@
 """an empty class square"""
 
 
-class Squarei:
+class Square:
     """ This is a square"""
     pass

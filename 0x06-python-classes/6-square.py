@@ -3,6 +3,7 @@
 a class square
 """
 
+
 class Square():
     """
     a class square

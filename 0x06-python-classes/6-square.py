@@ -1,7 +1,16 @@
 #!/usr/bin/python3
+"""
+a class square
+"""
 
 class Square():
+    """
+    a class square
+    """
     def __init__(self, size=0, position=(0, 0)):
+        """
+        this is an initialisation of the code
+        """
         self.size = size
         self.position = position
 

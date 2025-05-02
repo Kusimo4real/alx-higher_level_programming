@@ -55,10 +55,10 @@ class Square():
 
     def __str__(self):
         if self.__size == 0:
-            return " "
+            return ""
         lines = []
         for _ in range(self.__position[1]):
-            lines.append(" ")
+            lines.append("")
         for _ in range(self.__size):
             line = " " * self.__position[0] + "#" * self.__size
             lines.append(line)

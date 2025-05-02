@@ -58,8 +58,8 @@ class Square():
             return " "
         lines = []
         for _ in range(self.__position[1]):
-            lines.append("")
+            lines.append(" ")
         for _ in range(self.__size):
-            line = "" * self.__position[0] + "#" * self.__size
+            line = " " * self.__position[0] + "#" * self.__size
             lines.append(line)
         return "\n".join(lines)

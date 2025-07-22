@@ -44,4 +44,7 @@ Traceback (most recent call last):
   File "/home/kusimo/alx-higher_level_programming/0x07-python-test_driven_development/3-say_my_name.py", line 18, in say_my_name
     raise TypeError("first_name must be a string")
 TypeError: first_name must be a string
-
+>>> say_my_name("Hello", "World", "hi")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: say_my_name() takes from 1 to 2 positional arguments but 3 were given

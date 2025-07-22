@@ -5,6 +5,10 @@ a module that prints a square with the character #
 
 
 def print_square(size):
+    """
+    a function that prints square with the characete #
+    where size is the  length of the square
+    """
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
     if size < 0:

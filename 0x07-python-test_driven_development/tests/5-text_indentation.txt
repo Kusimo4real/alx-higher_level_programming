@@ -82,5 +82,11 @@ TypeError: text must be a string
 AL.
 <BLANKLINE>
 X
+>>> text = ""
+>>> text_indentation(text)
+>>> text_indentation(""" """)
+>>> text_indentation("""AL.X""")
+AL.
+<BLANKLINE>
+X
 >>> 
-

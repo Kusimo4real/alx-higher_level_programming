@@ -67,5 +67,20 @@ Tomorrow, everything could change.
 .
 <BLANKLINE>
 '
+>>> text = "ALX"
+>>> text_indentation(text)
+ALX
+>>> text = 1234
+>>> text_indentation(text)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/kusimo/alx-higher_level_programming/0x07-python-test_driven_development/5-text_indentation.py", line 15, in text_indentation
+    raise TypeError("text must be a string")
+TypeError: text must be a string
+>>> text = "AL.X"
+>>> text_indentation(text)
+AL.
+<BLANKLINE>
+X
 >>> 
 

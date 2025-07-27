@@ -89,4 +89,7 @@ X
 AL.
 <BLANKLINE>
 X
->>> 
+>>> text_indentation("""Abdulsemiu Kusimo""")
+Abdulsemiu Kusimo
+>>> text_indentation("""kusimo""")
+kusimo

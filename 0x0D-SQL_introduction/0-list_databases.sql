@@ -1,3 +1,2 @@
-mysql -hlocalhost -uroot -p
+-- This script list the database
 SHOW DATABASES;
-exit;
